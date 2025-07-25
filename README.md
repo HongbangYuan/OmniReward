@@ -39,8 +39,7 @@ Depending on your internet speed, this step might take a while.
 
 We recommend using the utility functions provided in `./dataset/OmniRewardBench/load_omni_reward_bench.py` for loading the dataset. You should specify the task argument to load data for a particular task. 
 
-## 🚀 Running Evaluation via API-based Model
- 
+## 🚀 Running Evaluation  
  
 
 To evaluate an API-accessible model on our full benchmark suite, you can run the provided launch script:
