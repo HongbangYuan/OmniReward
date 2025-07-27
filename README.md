@@ -284,8 +284,28 @@ bash scripts/train_ti2t.sh
 bash scripts/train_t2iv.sh
 ```
 
+## 📚 Training Data
 
 
+ The following table provides an overview of the subsets in OmniRewardData, including their associated task types and dataset sizes.
+
+> ℹ️ The asterisk (\*) denotes the subset constructed in this work.
+ 
+| Subset Name                       | Task Type | #Samples |
+| --------------------------------- | --------- | -------- |
+| Skywork-Reward-Preference         | T2T       | 50,000   |
+| Omni-Skywork-Reward-Preference \* | T2T       | 16,376   |
+| Omni-UltraFeedback \*             | T2T       | 7,901    |
+| RLAIF-V                           | TI2T      | 83,124   |
+| OmniAlign-V-DPO                   | TI2T      | 50,000   |
+| Omni-RLAIF-V \*                   | TI2T      | 15,867   |
+| Omni-VLFeedback \*                | TI2T      | 12,311   |
+| HPDv2                             | T2I       | 50,000   |
+| EvalMuse                          | T2I       | 2,944    |
+| Omni-HPDv2 \*                     | T2I       | 8,959    |
+| Omni-Open-Image-Preferences \*    | T2I       | 8,105    |
+| VideoDPO                          | T2V       | 10,000   |
+| VisionRewardDB-Video              | T2V       | 1,795    |
 
 
 
