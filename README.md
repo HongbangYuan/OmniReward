@@ -272,6 +272,14 @@ cd OmniReward/OmniReward-Factory
 pip install -r requirements.txt
 ```
 
+## 📦 Data Preparation
+
+Download all required training and evaluation datasets from [OmniRewardData](https://huggingface.co/datasets/jinzhuoran/OmniRewardData) and [OmniRewardBench](https://huggingface.co/datasets/HongbangYuan/OmniRewardBench):
+
+```bash
+cd OmniReward-Factory
+bash scripts/download.sh
+
 ## 🏋️‍♀️  Training Omni-Reward
 
 To reproduce the training results described in our paper, please navigate to the OmniReward-Factory directory and run the following scripts:
