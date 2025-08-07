@@ -292,6 +292,25 @@ bash scripts/train_t2t.sh
 bash scripts/train_ti2t.sh
 bash scripts/train_t2iv.sh
 ```
+## 📈  Loading and Evaluating Omni-Reward
+
+You can also directly use our pretrained Omni-Reward for evaluation without retraining.
+
+The models are publicly available at:
+
+👉 https://huggingface.co/jinzhuoran/OmniRewardModel
+
+```bash
+cd OmniReward-Factory
+bash scripts/eval_t2t.sh
+bash scripts/eval_t2t_tie.sh
+bash scripts/eval_ti2t.sh
+bash scripts/eval_ti2t_tie.sh
+```
+
+- `--eval_dataset`: Specifies the evaluation dataset (e.g., `omni_t2t`, `omni_t2i`, `omni_t2v`, etc.).
+
+- `--eval_tie`: Enables w/ Ties evaluation.
 
 ## 📚 Training Data
 
