@@ -279,6 +279,7 @@ Download all required training and evaluation datasets from [OmniRewardData](htt
 ```bash
 cd OmniReward-Factory
 bash scripts/download.sh
+```
 
 ## 🏋️‍♀️  Training Omni-Reward
 
